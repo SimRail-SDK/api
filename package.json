@@ -1,0 +1,31 @@
+{
+  "name": "@simrail-sdk/api",
+  "version": "0.1.0",
+  "description": "SimRail SDK - API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simrail-sdk/api.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "simrail",
+    "sdk",
+    "api",
+    "rest"
+  ],
+  "author": "Niek van Bennekom",
+  "license": "See LICENSE.md",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@simrail-sdk/api-core-node": "^0.1.0",
+    "remove-accents": "^0.5.0",
+    "rxjs": "^7.8.1"
+  }
+}
