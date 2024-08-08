@@ -280,7 +280,7 @@ class Api {
 }
 exports.Api = Api;
 (function (Api) {
-    Api.VERSION = "0.1.0";
+    Api.VERSION = "0.1.1";
     Api.Core = api_core_node_1.default;
     Api.Timetable = api_core_node_1.default.Timetable;
     Api.DEFAULT_ACTIVE_SERVER_RETENTION = 30;

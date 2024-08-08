@@ -1,5 +1,5 @@
 /**
- * ## SimRail SDK - API
+ * ## SimRail API SDK
  *
  * This file contains the functionality for interacting with the SimRail API
  *   and exports type definitions from submodules for ease-of-use.
@@ -429,7 +429,7 @@ export class Api implements Omit<Api.Core, "config"> {
 export namespace Api {
 
     /** Specifies the version of the API. */
-    export const VERSION: Version = "0.1.0";
+    export const VERSION: Version = "0.1.1";
 
     export import Core       = ApiCore;
     export import Endpoints  = ApiCore.Endpoints;

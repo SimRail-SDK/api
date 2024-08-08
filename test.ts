@@ -16,7 +16,7 @@ const config: Api.Config = {
         cache: {
             enabled: true,
             retention: 1,
-            // singleRecordOnly: true, // #TODO
+            singleRecordOnly: true,
         },
     },
 };

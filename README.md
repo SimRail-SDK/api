@@ -1,15 +1,19 @@
-# SimRail SDK - API
+# SimRail API SDK
 
-This module contains a simple SDK for interacting with the SimRail APIs.
+This is a simple SDK (community edition) for interacting with the SimRail APIs.
 
-This API module builds another layer on top of a Core API module by providing:
+This *API module* builds a layer on top of a *Core API module* (like [`@simrail-sdk/api-core-node`](https://github.com/simrail-sdk/api-core-node "View on GitHub")) by providing:
 - Methods to request single resources. (A single server, station or train)
 - Automatic pulling of remote data updates.
 - Update event subcriptions.
 - Caching of remote API responses.
 
-This module requires the use of a Core API module to be able to extend it. By default
-this module will use `@simrail-sdk/api-core-node`. To provide another Core API module
+This *API module* is only about interacting with SimRail's remote APIs. If you are looking for a more developer-friendly SDK, checkout:
+- [`@simrail-sdk/core`](https://github.com/simrail-sdk/core "View on GitHub") for an SDK consuming only live data.
+- [`@simrail-sdk/sdk`](https://github.com/simrail-sdk/sdk "View on GitHub") for an SDK providing extended data about the game. ***(upcoming)***
+
+This module requires the use of a *Core API module* to be able to extend it. By default
+this module will use [`@simrail-sdk/api-core-node`](https://github.com/simrail-sdk/api-core-node "View on GitHub"). To provide another *Core API module*
 or a custom one, check out the example [providing a (custom) Core API class][providing-a-custom-core-api-class] below.
 
 <br/>
@@ -4344,7 +4348,7 @@ Package name: `@simrail-sdk/api`
 
 Author: [Niek van Bennekom](https://github.com/niekvb "View GitHub profile")
 
-Version: `0.1.0`
+Version: `0.1.1`
 
 Repository: [`github:simrail-sdk/api` (origin)](https://github.com/simrail-sdk/api.git "View on github")
 
@@ -4416,9 +4420,9 @@ Dependency tree:
 
 | File type | Number of files | Lines with code | Lines with comments | Blank lines |
 | --------- | --------------- | --------------- | ------------------- | ----------- |
-| Markdown | 3 | 3805 | 0 | 2507 |
-| TypeScript | 8 | 792 | 557 | 199 |
-| JavaScript | 7 | 496 | 7 | 0 |
+| Markdown | 3 | 3558 | 0 | 2300 |
+| TypeScript | 8 | 793 | 556 | 199 |
+| JavaScript | 7 | 497 | 7 | 0 |
 | JSON | 3 | 123 | 0 | 1 |
-| YAML | 1 | 40 | 0 | 0 |
-| **All (total)** | **22** | **5256** | **564** | **2707** |
+| YAML | 1 | 50 | 0 | 3 |
+| **All (total)** | **22** | **5021** | **563** | **2503** |
